@@ -7,9 +7,10 @@ public class ToAnalysisTest extends CorpusTest{
 
 	@Test
 	public void test() {
-		for (String string : lines) {
-			System.out.println(ToAnalysis.parse(string));
-		}
+		System.out.println(ToAnalysis.parse("品牌为1的客户数"));
+		// for (String string : lines) {
+		// 	System.out.println(ToAnalysis.parse(string));
+		// }
 	}
 
 }
